@@ -12,7 +12,7 @@
 
 ## 2:
 
-### a: Script para desplazar al personaje
+### a: Script para desplazar al personaje. El script se llama CharControllerFirst
 
 ![gif](./2a.gif) 
 
@@ -25,23 +25,23 @@
 
 ## 3: 
 
-### 1: Incluir varios cilindros los cuales cuando el jugador choque contra ellos aumenten su tamaño y aumente la puntuacion del jugador. Se ha usado el tag "Cilindro1" para agruparlos
+### 1: Incluir varios cilindros los cuales cuando el jugador choque contra ellos aumenten su tamaño y aumente la puntuacion del jugador. Se ha usado el tag "Cilindro1" para agruparlos. Esto se implementa en el script CharController
 
 ![gif](./1.gif) 
 
-### 2: Cilindros de tipo A. Estos se alejarán del jugador cuando este esté cerca y pulse espacio. Se ha usado el tag "CilindroA" para agruparlos
+### 2: Cilindros de tipo A. Estos se alejarán del jugador cuando este esté cerca y pulse espacio. Se ha usado el tag "CilindroA" para agruparlos. Se detecta si el jugador esta cerca en el script CharController (en realidad se detecta si el cilindro esta cerca del jugador, que es lo mismo) y se alejan los cilindros usando la funcion alejar del script cilindroAlejar (el objeto jugador tiene el script CharController y el cilindro el script cilindroAlejar)
 
 ![gif](./2.gif) 
 
-### 3: Cilindros que huyan del jugador cuando se acerque. Se ha usado el tag "Cilindro2" para agruparlos
+### 3: Cilindros que huyan del jugador cuando se acerque. Se ha usado el tag "Cilindro2" para agruparlos. Se detecta si el jugador esta cerca en el script CharController (en realidad se detecta si el cilindro esta cerca del jugador, que es lo mismo) y se alejan los cilindros usando la funcion alejar del script cilindroAlejar (el objeto jugador tiene el script CharController y el cilindro el script cilindroAlejar)
 
 ![gif](./3.gif) 
 
-### 4: Ubicar un tercer objeto (un cuadrado) que detecte colisiones y se mueva con las teclas I, L, J, M
+### 4: Ubicar un tercer objeto (un cuadrado) que detecte colisiones y se mueva con las teclas I, L, J, M. Esto se implementa en el script Char2Controller
 
 ![gif](./4.gif) 
 
-### 5: Cubos que aumenten de tamaño cuando se acerca una esfera y disminuyan cuando se acerca el jugador
+### 5: Cubos que aumenten de tamaño cuando se acerca una esfera y disminuyan cuando se acerca el jugador. Esto se implementa en el script cuboTamanio
 
 ![gif](./5.gif) 
 
