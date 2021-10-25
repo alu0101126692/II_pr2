@@ -18,7 +18,7 @@
 
 ### b: Campo público para graduar la velocidad del personaje
 
-![gif](./2b.gif) 
+![gif](./2C.gif) 
 
 ### c: Usar Ejes virtuales.
 
