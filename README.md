@@ -37,7 +37,7 @@
 
 ![gif](./3.gif) 
 
-### 4: Ubicar un tercer objeto (un cuadrado) que tenga detecte colisiones y se mueva con las teclas I, L, J, M
+### 4: Ubicar un tercer objeto (un cuadrado) que detecte colisiones y se mueva con las teclas I, L, J, M
 
 ![gif](./4.gif) 
 
